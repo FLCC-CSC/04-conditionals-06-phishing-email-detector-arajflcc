@@ -91,7 +91,9 @@ Analyzed subject: "Did you request a password reset?"
 
 1. Was using `in` difficult or was it natural?
 
-
+Using 'in' was different and not difficult.  I completely forgot to use .lower() and always had outputs as 
+"HIGH RISK" which was the print condition for 'if'.  I added subject.lower() on either side of 'or' 
+on line 20 and line 21.  Once those were fixed, the program output matched all of the sample outputs.
 
 
 
@@ -110,7 +112,7 @@ Analyzed subject: "Did you request a password reset?"
 Please gauge your utilization of AI on the following spectrum. Place an "X" in front
 of the appropriate response. Only choose one of the following:
 
-[ ] I did not use AI at all for this lab.
+[x] I did not use AI at all for this lab.
 [ ] I wrote the initial draft of the software but had AI help me make it better.
 [ ] I fed the lab description to AI and had it generate a response but I modified it.
 [ ] AI created the entire program for me.
@@ -124,7 +126,7 @@ may impede your understanding. Please rate how well you understand the concepts 
 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[x] I pretty much get it.
 [ ] I'm solid. Totally got it.
 
 '''
